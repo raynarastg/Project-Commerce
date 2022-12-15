@@ -1,8 +1,8 @@
 db.produtos.find({
   $and: [
     {
-      vendidos: {
-        $gt: 50,
+      curtidas: {
+        $gt: 10,
         $lt: 100,
       },
     },
@@ -10,6 +10,6 @@ db.produtos.find({
 },
   {
     _id: 0,
-    vendidos: 1,
+    curtidas: 1,
     nome: 1,
-  }).sort({ vendidos: 1 });
+  });
