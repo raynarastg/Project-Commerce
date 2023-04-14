@@ -25,8 +25,3 @@ Neste projeto foi aplicado os seguintes conceitos:
 - Use o comando: `git clone git@github.com:raynarastg/Project-Commerce.git`.
 - Entre na pasta do repositório que você acabou de clonar:
   - `cd Project-Commerce`
-
-1. Instale as dependências
-
-- `npm install`
-
